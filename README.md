@@ -1,5 +1,8 @@
 # UI tests for Twitch mobile version
 
+# Demo
+![Description](assets/demo.gif)
+
 # Usage
 
 ## Docker execution
