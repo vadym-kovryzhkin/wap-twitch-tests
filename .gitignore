@@ -1,0 +1,84 @@
+# Byte-compiled / optimized / compiled Python files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS files
+.DS_Store
+
+# Environments
+.env
+.venv/
+venv/
+ENV/
+env/
+# If you are using Pyenv
+.python-version
+
+# Installed packages
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# PyInstaller
+# Usually these files are written by a Python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pylint
+pylint.log
+
+# Pyre type checker
+.pyre/
+
+# Cython debug symbols
+cython_debug/
+
+# IDE files (e.g., VSCode, PyCharm)
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Logs and temporary files
+*.log
+*.temp
+*.tmp
+*.swp
+*.bak
+*.orig
+
+# Local project-specific configurations
+config/
