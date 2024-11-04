@@ -24,7 +24,7 @@ class StreamerMobilePage(BaseMobilePage):
 
     @log_method_call
     def take_streamer_page_screenshot(self):
-        project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../'))
+        project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), '../'))
         streamer_name = self.get_streamer_name()
         file_name = f"{streamer_name}-{time.time()}.png"
         screenshot_path = os.path.join(project_root, file_name)
